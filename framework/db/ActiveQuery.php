@@ -819,7 +819,7 @@ class ActiveQuery extends Query implements ActiveQueryInterface
      * @return string primary table name
      * @since 2.0.12
      */
-    protected function getPrimaryTableName()
+    public function getPrimaryTableName()
     {
         /* @var $modelClass ActiveRecord */
         $modelClass = $this->modelClass;
